@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>しょーごログ中級編</title>
+    <meta name="description" content="しょーごログ中級編コーディング">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="sass/swiper.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="sass/aos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+<body>
+  <header class="header">
+    <div class="header__contents">
+      <div class="header__contents-left">
+        <div class="header__contents-left--logo">
+          <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="header__contents-left--title">
+          ユアコーディング
+        </div>
+      </div>
+      <div class="header__contents-middle">
+        <ul>
+          <li>特徴</li>
+          <li>価格</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </div>
+      <div class="header__contents-right">
+        <a href="#">お問い合わせ</a>
+      </div>
+    </div>
+    
+    <!-- ハンバーガーメニューアイコン -->
+    <div id="humberger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <!-- ハンバーガーメニュー -->
+  <div class="humberger-menu">
+    <div class="close">X</div>
+    <ul class="humberger-menu__list">
+      <li><a href="">特徴</a></li>
+      <li><a href="">価格</a></li>
+      <li><a href="">お問い合わせ</a></li>
+    </ul>
+  </div>
+
+  <!-- 背景を暗くするよう -->
+  <div class="dark"></div>
+
+  <main>
+    <article class="article1">
+      <section class="article1__contents" data-aos="fade-down-left">
+        <div class="article1__contents-left">
+          <h1>コーディングの手間を<br>
+            最小に、デザインに注力<br>
+            する助けに</h1>
+          <p>ユアコーディングはコーディングに<br>
+            特化したフリーランス<br>
+            デザインに注力されたい方の<br>
+            助けになります</p>
+          <a href="#">お問い合わせ</a>
+        </div>
+        <div class="article1__contents-right">
+          <img src="images/main.png" alt="main">
+        </div>
+        <div class="article1__contents-circle">
+          <img src="images/circle.png" alt="circle">
+        </div>
+      </section>
+    </article>
+    <article class="article2" data-aos="fade-down-left">
+      <section class="article2__contents">
+        <div class="article2__contents-title">
+          <h2>ユアコーディング3つの特徴</h2>
+          <p>FEATURES</p>
+        </div>
+        <div class="article2__contents-top" data-aos="fade-up-left">
+          <p>高速コーディング</p>
+          <div class="article2__contents-top--inner">
+            <div class="article2__contents-top--inner-left">
+              <img src="images/feature01.png" alt="feature01">
+            </div>
+            <div class="article2__contents-top--inner-right">
+              <p>コーディングに特化したフリーランスのため、<br>
+                スピード感を持った開発が可能。
+              </p>
+              <div>開発は常にスピードとの勝負です。<br>
+                ユアコーディングはコーディングに特化しているため、
+                素早く納品することで、クライアントがデザインに注力
+                する助けとなります。
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article2__contents-middle" data-aos="fade-up-right">
+          <p>高品質</p>
+          <div class="article2__contents-middle--inner">
+            <div class="article2__contents-middle--inner-left">
+              <img src="images/feature02.png" alt="feature01">
+            </div>
+            <div class="article2__contents-middle--inner-right">
+              <p>正しいマークアップで、<br>
+                内部SEOに強いコーディングを
+                デフォルトで行います。
+              </p>
+              <div>ユアコーディングでは、「予測しやすい」「再利用しやすい」
+                「保守しやすい」「拡張しやすい」と言った設計をもとに
+                きちんとコーディングを行うため、納品後も安心です。
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article2__contents-bottom" data-aos="fade-up-left">
+          <p>迅速なレスポンス</p>
+          <div class="article2__contents-bottom--inner">
+            <div class="article2__contents-bottom--inner-left">
+              <img src="images/feature03.png" alt="feature01">
+            </div>
+            <div class="article2__contents-bottom--inner-right">
+              <p>原則いただいたメッセージは、<br>
+                業務時間内であれば6時間以内に
+                お返しいたします。
+              </p>
+              <div>連絡を返さないフリーランスが多い中、
+                ユアコーディングでは定期的な進捗報告など、
+                社会人としての基本を踏まえて仕事を行なって
+                おります。
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <article class="article3" >
+      <section class="article3__contents" data-aos="fade-in">
+        <h2>価格</h2>
+        <p class="article3__contents-title">PRICE</p>
+        <table class="article3__contents-box">
+          <tbody>
+            <tr>
+              <th>HTMLコーディングトップページ</th>
+              <td>30.000円〜</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>HTMLコーディング下層1ページ</th>
+              <td>10.000円〜</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>HTML+WordPressトップページ</th>
+              <td>55.000円〜</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>HTML+WordPress下層1ページ</th>
+              <td>15.000円〜</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="article3__contents-attention">＊詳細な価格はページや仕様によって異なります</p>
+      </section>
+    </article>
+    <article class="article4" >
+      <section class="article4__contents" data-aos="fade-down-left">
+        <h2>よくある質問</h2>
+        <p>FAQ</p>
+        <dl class="article4__contents-box">
+          <dt><a href="#acc1" class="currentBtn">デザインから一貫してお願いすることは可能でしょうか</a></dt>
+          <dd id="acc1" class="current">ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。<br>
+            ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。</dd>
+          <dt><a href="#acc2">WordPressのカスタマイズをお願いすることも可能でしょうか？</a></dt>
+          <dd id="acc2">可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。</dd>
+          <dt><a href="#acc3">コーディングのスピード感が知りたい</a></dt>
+          <dd id="acc3">HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安に
+            なります。
+          </dd>
+        </dl>
+      </section>
+    </article>
+    <article class="article5" >
+      <section class="article5__contents" data-aos="fade-down-left">
+        <h2 class="top-title">ブログ</h2>
+        <p class="second-title">BLOG</p>
+        <div class="article5__contents-lists" data-aos="fade-down-right">
+          <div class="article5__contents-lists--1">
+            <div><img src="images/austin-distel-wawEfYdpkag-unsplash@2x-min.jpg" alt="blog1"></div>
+            <p class="text">サイトをリニューアルオープンしました。</p>
+            <p class="time">2020.01.23</p>
+          </div>
+          <div class="article5__contents-lists--2">
+            <div><img src="images/dylan-gillis-KdeqA3aTnBY-unsplash@2x-min.jpg" alt="blog1"></div>
+            <p class="text">WebサイトでSEO内部施策に適したコーディングでどれぐらいサイトが早くなるのか検証してみました</p>
+            <p class="time">2020.01.24</p>
+          </div>
+          <div class="article5__contents-lists--3">
+            <div><img src="images/brooke-cagle-g1Kr4Ozfoac-unsplash@2x-min.jpg" alt="blog1"></div>
+            <p class="text">ユアコーディングではデザイナーの方を広く募集しています。</p>
+            <p class="time">2020.01.25</p>
+          </div>
+        </div>
+      </section>
+    </article>
+    <article class="article6" >
+      <section class="article6__contents" data-aos="fade-down-left">
+        <h2 class="top-title ">制作実績</h2>
+        <p class="second-title">WORKS</p>
+        <div class="article6__contents-lists" data-aos="fade-down-right">
+          
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide" style="width: 322px;">
+                  <div class="article6__contents-lists--2">
+                    <div class="works-img"><img src="images/2@2x-min.jpg" alt="works2"></div>
+                    <p class="text">コーディングカンファレンスのイベントLPの制作を行いました！</p>
+                    <div class="imformation-box">
+                      <p class="information">採用技術：jQuery,WordPress</p>
+                      <p class="information">実装期間：4週間</p>
+                      <p class="information">担当コーダー：石井</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="article6__contents-lists--3">
+                    <div class="works-img"><img src="images/3@2x-min.jpg" alt="works3"></div>
+                    <p class="text">株式会社サンプル様採用サイトのコーディングを行いました！</p>
+                    <div class="imformation-box">
+                      <p class="information">採用技術：jQuery,Bootstrap4</p>
+                      <p class="information">実装期間：2週間</p>
+                      <p class="information">担当コーダー：石井</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="article6__contents-lists--4">
+                    <div class="works-img"><img src="images/4@2x-min.jpg" alt="works4"></div>
+                    <p class="text">株式会社サンプル様通販サイトのコーディングを行いました！</p>
+                    <div class="imformation-box">
+                      <p class="information">採用技術：jQuery,Bootstrap4</p>
+                      <p class="information">実装期間：6週間</p>
+                      <p class="information">担当コーダー：石井</p>
+                    </div>
+                  </div>
+              </div>
+              
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+         </div>
+      
+        </div>
+      </section>
+    </article>
+
+    
+
+
+
+    <article class="article7" >
+      <section class="article7__contents" data-aos="fade-up-left">
+        <h2>お問い合わせ</h2>
+        <p class="subtitle">CONTACT</p>
+        <p class="text">コーディングの人出が足りないとき、<br>あなたの力になります</p>
+        <div class="article7__contents-box">
+          <form action="#" class="article7__contents-box--form">
+            <div class="name">
+              <label for="1">お名前<span>必須</span></label>
+              <input type="text">
+            </div>
+            <div class="email">
+              <label for="2">メールアドレス<span>必須</span></label>
+              <input type="email">
+            </div>
+            <div class="content">
+              <label for="3">お問い合わせ内容<span>必須</span></label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="concent">
+              <input type="checkbox" id="concent">
+              <label for="concent">プライバシーポリシーに同意する</label>
+            </div>
+            <div class="submit">
+              <input type="submit" value="送信する">
+            </div>
+          </form>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="footer__contents">
+      <h3>ユアコーディング</h3>
+      <div class="footer__text">
+        <p class="footer__text-left">プライバシーポリシー</p>
+        <p class="footer__text-right">個人商取引法に基づく表記</p>
+      </div>
+      <small>&copyユアコーディング, All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/swiper.min.js"></script>
+  <script>
+    var mySwiper = new Swiper ('.swiper-container', {
+      // ここからオプション
+      loop: true,
+      centeredSlides:true,
+      slidesPerView: 4,
+      spaceBetween: 56,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+      autoplay: {
+        delay: 5000,
+      },
+    })
+   </script>
+   <script src="js/aos.js"></script>
+   <script>AOS.init({
+      offset: 100,
+      duration: 1000,
+      easing: 'ease',
+      delay: 100,
+      once: true,
+      anchorPlacement: 'bottom-center',
+
+   });</script>
+</body>
+</html>

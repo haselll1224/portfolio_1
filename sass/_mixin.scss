@@ -1,0 +1,21 @@
+@mixin btn {
+    display: block;
+    width: 155px;
+    height: 37px;
+    background: linear-gradient(to right,#FA41CC, #6020B0);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin media-1 {
+  @media (max-width: 1024px) {
+      @content;
+  }
+}

@@ -1,0 +1,112 @@
+.article7 {
+  height: 1027px;
+  background: linear-gradient(to right,#05A5FA, #63FBD7);
+  padding-top: 72px;
+  &__contents {
+    height: 885px;
+    width: 100%;
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: calc(28/32);
+      color: #FFFFFF;
+    }
+    .subtitle {
+      color: #FFFFFF;
+      font-weight: bold;
+      text-align: center;
+      margin: 19px 0 42px 0;
+      line-height: calc(19/16);
+    }
+    .text {
+      color: #FFFFFF;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 0 44px 0;
+      line-height: calc(19/16);
+      height: 43px;
+      padding: 0;
+    }
+  }
+  &__contents-box {
+    height: 689px;
+    width: 908px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px 0 rgba(0 , 0, 0, 0.16);
+    margin: auto;
+    padding: 31px 62px 35px 63px;
+    &--form {
+      height: 623px;
+      .name {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        label {
+          font-weight: bold;
+          line-height: calc(26/16);
+          display: flex;
+          align-items: center;
+          span {
+            display: inline;
+            border-radius: 10px;
+            margin-left: 23px;
+            background-color: #0C449B;
+            color: #FFFFFF;
+            width: 60px;
+            height: 30px;
+            font-size: 14px;
+            line-height: calc(26/14);
+            text-align: center;
+            vertical-align: top;
+            padding: 2px 16px;
+          }
+        }
+        input {
+          height: 43px;
+          width: 499px;
+          margin: 36px 0 0 0;
+          background-color: #EEFBFB;
+          padding: 0 10px;
+        }
+      }
+      .email {
+        margin: 25px 0 0 0;
+        @extend .name;
+      }
+      .content {
+        margin: 19px 0 0 0;
+        @extend .name;
+        textarea {
+          width: 100%;
+          height: 179px;
+          background-color: #EEFBFB;
+          margin: 35px 0 0 0;
+          padding: 5px 10px;
+        }
+      }
+      .concent {
+        margin: 30px 0 31px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        input {
+          width: 20px;
+          height: 20px;
+          border: 1px solid #707070;
+          margin: 0 10px 0 0;
+        }
+        label {
+          font-weight: bold;
+          line-height: calc(28/14);
+        }
+      }
+      .submit {
+        @include btn;
+        margin: 0 auto;
+      }
+    }
+  }
+}
